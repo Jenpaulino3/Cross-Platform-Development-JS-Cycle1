@@ -1,31 +1,4 @@
-// Stores the numbers
-var box = document.getElementById("display");
-	// To display clicked #
-
-function addtoscreen(x){
-	box.value += x;
-
-	if(x=='C'){
-		box.value = '';
-	}
-}
-
-function answer(){
-	x = box.value;
-	x = eval(x);
-	box.value = x;
-
-}
-
-function backspace(){
-	var number = box.value;
-	var len = number.length-1;
-	var newnumber = number.substring(0,len);
-	// Substring extracts the characters and returns new string. Requires start and end
-	box.value=newnumber;
-}
-
-
+// Class Method
 
 /*var num1;
 var num2;
@@ -69,3 +42,31 @@ function divide(){
 	results = +num1.value / +num2.value;
 	res.value = results;
 }*/
+
+// End Class Method
+
+var box = document.getElementById("display");// Stores the numbers
+
+
+function addtoscreen(x){ // To display clicked #
+	box.value += x;
+
+	if(x=='C'){
+		box.value = '';
+	}
+}
+
+function answer(){
+	x = box.value;
+	x = eval(x);
+	box.value = x;
+
+}
+
+function backspace(){
+	var number = box.value;
+	var len = number.length-1;
+	var newnumber = number.substring(0,len);
+	// Substring extracts the characters and returns new string. Requires start and end
+	box.value=newnumber;
+}
