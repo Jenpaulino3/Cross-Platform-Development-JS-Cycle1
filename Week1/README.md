@@ -1,5 +1,7 @@
 # Vanilla Javascript Calculator
 
-This is where you will create the Javascript Calculator in the class. The files will be inside `JavascriptCalculator`.
+## Jennifer Paulino
 
-We will go over this together. 
+### Created during Class Week 1
+
+https://htmlpreview.github.io/?https://github.com/Jenpaulino3/Cross-Platform-Development-JS-Cycle1/blob/master/Week1/index.html 
