@@ -1,0 +1,62 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+h2, #keys {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+}
+
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#calculator {
+	width: 300px;
+	height: 350px;
+	border: 3px solid pink;
+	text-align: center;
+	background-color: lightgreen;
+	margin: 5px auto;
+	box-shadow: 0px 0px 15px gray;
+}
+
+/*Textbox*/
+#display {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	width: 220px;
+	height: 30px;
+	border: 1px solid pink;
+	box-shadow: 0px 0px 15px pink;
+	text-align: right;
+	font: 20px bold;
+	color: darkgreen;
+}
+
+#keys {
+	width: 41px;
+	height: 35px;
+	margin-left: 10px;
+	margin-bottom: 15px;
+	box-shadow: 0px 0px 15px grey;
+	cursor: pointer;
+}
+
+#keys:hover, #equal:hover {
+	font-weight: bold;
+	background-color: pink;
+}
+
+#equal {
+	width: 90px;
+	height: 35px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	box-shadow: 0px 0px 15px grey;
+	cursor: pointer;
+}
